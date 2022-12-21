@@ -14,7 +14,7 @@
 }
 
 .header__title {
-  margin-left: 135px;
+  margin-left: 105px;
   color: white;
 }
 
@@ -105,7 +105,7 @@
 }
 .hero__select ul li {
   width: 260px;
-  height: 31.5px;
+  height: 35.5px;
   list-style: none;
   background-color: #E3E3E3;
   border: 1px solid #d4d0d0;
@@ -139,7 +139,7 @@
 .hero__box {
   background-image: url(../../img/furinitura.png);
   background-repeat: no-repeat;
-  background-size: width 376px height 374;
+  background-size: width 100px;
   background-position: left 320px top 0;
   padding-top: 60px;
   padding-left: 35px;
@@ -173,6 +173,8 @@
   border: none;
   background-color: #7AC751;
   color: white;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .main__card {
@@ -194,11 +196,266 @@ button {
   display: flex;
   flex-direction: column-reverse;
   margin-left: 650px;
-  margin-top: -250px;
+  margin-top: -290px;
 }
 .slider img {
-  margin-top: 10px;
+  margin-bottom: 15px;
   width: 80px;
   height: 80px;
   display: inline;
+}
+
+.main {
+  position: relative;
+  display: inline-block;
+  margin-left: 104px;
+}
+.main img {
+  position: absolute;
+}
+.main b {
+  position: absolute;
+  width: 301px;
+  height: 26px;
+  left: 34px;
+  top: 25px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+  display: flex;
+  align-items: center;
+  /* Primary */
+  color: #555555;
+}
+.main p {
+  position: absolute;
+  left: 34px;
+  top: 55px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  width: 179px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+.main span {
+  position: absolute;
+  width: 81px;
+  height: 26px;
+  left: 34px;
+  top: 85px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.main2 {
+  position: relative;
+  display: inline-block;
+  margin-left: 690px;
+}
+.main2 img {
+  position: absolute;
+}
+.main2 b {
+  position: absolute;
+  width: 301px;
+  height: 26px;
+  left: 34px;
+  top: 25px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+  display: flex;
+  align-items: center;
+  /* Primary */
+  color: #555555;
+}
+.main2 p {
+  position: absolute;
+  left: 34px;
+  top: 55px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  width: 179px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+.main2 span {
+  position: absolute;
+  width: 81px;
+  height: 26px;
+  left: 34px;
+  top: 85px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.main_section {
+  display: block;
+}
+
+.main3 {
+  position: relative;
+  display: inline-block;
+  margin-left: 800px;
+  margin-top: 260px;
+}
+.main3 img {
+  position: absolute;
+}
+.main3 b {
+  position: absolute;
+  width: 301px;
+  height: 26px;
+  left: 34px;
+  top: 25px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+  display: flex;
+  align-items: center;
+  /* Primary */
+  color: #555555;
+}
+.main3 p {
+  position: absolute;
+  left: 34px;
+  top: 55px;
+  display: inline;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  width: 179px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+.main3 span {
+  position: absolute;
+  width: 81px;
+  height: 26px;
+  left: 34px;
+  top: 85px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.trending {
+  display: block;
+  text-align: center;
+  margin-top: 280px;
+}
+
+.tranding__list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.tranding__list .active {
+  color: #7AC751;
+}
+.tranding__list li {
+  list-style-type: none;
+  cursor: pointer;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #C2C2C2;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+.card li {
+  display: inline;
+  width: 250px;
+  margin: 0;
+}
+.card li img {
+  width: 250px;
+}
+.card li b {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.card li p {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.card li .sena {
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+.footer {
+  background-color: rgb(186, 185, 185);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 30px;
+}
+.footer .footer__text {
+  width: 318px;
+}
+.footer li {
+  list-style-type: none;
+  cursor: pointer;
+  line-height: 30px;
 }/*# sourceMappingURL=main.css.map */
